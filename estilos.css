@@ -1,0 +1,115 @@
+/* 🔹 Ajuste general */
+body {
+  padding-top: 70px;
+  background-color: #000; /* fondo negro */
+  color: #fff; /* texto blanco */
+  font-family: "Poppins", sans-serif; /* fuente más moderna */
+  line-height: 1.6;
+}
+
+/* 🔹 Navbar */
+.bg-negro {
+  background-color: rgba(0, 0, 0, 0.8) !important; 
+  backdrop-filter: blur(6px); /* efecto glass más sutil */
+  transition: background 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+  text-shadow: 0 0 6px #ff007f;
+}
+
+/* 🔹 Colores personalizados */
+.text-rosa {
+  color: #ff007f !important; /* rosa fuerte */
+}
+
+.text-verde {
+  color: #00c853 !important; /* verde neón */
+}
+
+/* 🔹 Hero */
+.hero {
+  min-height: 90vh;
+  background: url("https://besame.com/cdn/shop/files/BANNER_PC_4.png?v=1756930346&width=2000") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+  backdrop-filter: blur(0.5px);
+}
+
+/* 🔹 Sección Grupo */
+.grupo-section {
+  background-color: #000;
+}
+
+.brand-logo {
+  max-height: 70px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.brand-logo:hover {
+  transform: scale(1.12);
+  filter: brightness(1.2);
+}
+
+/* 🔹 Galería */
+.gallery-img {
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(255, 0, 127, 0.4);
+}
+
+/* 🔹 Productos */
+.producto-card {
+  background: #111;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(255, 0, 127, 0.25);
+}
+
+.producto-img-wrapper {
+  overflow: hidden;
+}
+
+.producto-img {
+  transition: transform 0.4s ease;
+}
+
+.producto-card:hover .producto-img {
+  transform: scale(1.08);
+}
+
+/* 🔹 Footer */
+footer {
+  border-top: 1px solid #333;
+  background: #000;
+  font-size: 0.9rem;
+}
