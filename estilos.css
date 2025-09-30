@@ -1,16 +1,20 @@
-/* 🔹 Ajuste general */
+/* ============================
+   🔹 AJUSTES GENERALES
+============================ */
 body {
   padding-top: 70px;
-  background-color: #000; /* fondo negro */
-  color: #fff; /* texto blanco */
-  font-family: "Poppins", sans-serif; /* fuente más moderna */
+  background-color: #000; /* Fondo negro */
+  color: #fff;            /* Texto blanco */
+  font-family: "Poppins", sans-serif; /* Fuente moderna */
   line-height: 1.6;
 }
 
-/* 🔹 Navbar */
+/* ============================
+   🔹 NAVBAR
+============================ */
 .bg-negro {
-  background-color: rgba(0, 0, 0, 0.8) !important; 
-  backdrop-filter: blur(6px); /* efecto glass más sutil */
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(6px); /* Efecto glass */
   transition: background 0.3s ease;
 }
 
@@ -28,19 +32,24 @@ body {
   text-shadow: 0 0 6px #ff007f;
 }
 
-/* 🔹 Colores personalizados */
+/* ============================
+   🔹 COLORES PERSONALIZADOS
+============================ */
 .text-rosa {
-  color: #ff007f !important; /* rosa fuerte */
+  color: #ff007f !important; /* Rosa fuerte */
 }
 
 .text-verde {
-  color: #00c853 !important; /* verde neón */
+  color: #00c853 !important; /* Verde neón */
 }
 
-/* 🔹 Hero */
+/* ============================
+   🔹 HERO
+============================ */
 .hero {
   min-height: 90vh;
-  background: url("https://besame.com/cdn/shop/files/BANNER_PC_4.png?v=1756930346&width=2000") center/cover no-repeat;
+  background: url("https://besame.com/cdn/shop/files/BANNER_PC_4.png?v=1756930346&width=2000") 
+              center/cover no-repeat;
   display: flex;
   align-items: center;
   color: #fff;
@@ -54,9 +63,27 @@ body {
   backdrop-filter: blur(0.5px);
 }
 
-/* 🔹 Sección Grupo */
+/* ============================
+   🔹 SECCIÓN GRUPO
+============================ */
 .grupo-section {
-  background-color: #000;
+  background-color: #000; /* Fondo negro */
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ff007f; /* Rosa fuerte */
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.logo-text:hover {
+  color: #00c853; /* Verde neón */
+  text-shadow: 0 0 8px rgba(255, 0, 127, 0.8);
+  transform: scale(1.05);
 }
 
 .brand-logo {
@@ -70,7 +97,42 @@ body {
   filter: brightness(1.2);
 }
 
-/* 🔹 Galería */
+/* ============================
+   🔹 GALERÍA
+============================ */
+
+/* 🔹 Contenedor de cada imagen */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* 🔹 Texto sobre la imagen */
+.gallery-text {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #ff007f;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+/* 🔹 Efecto hover */
+.gallery-item:hover .gallery-text {
+  background: rgba(0, 200, 83, 0.8); /* Verde neón */
+  color: #fff;
+  transform: translateX(-50%) scale(1.05);
+}
+
+
+
 .gallery-img {
   border-radius: 10px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -81,7 +143,9 @@ body {
   box-shadow: 0 10px 30px rgba(255, 0, 127, 0.4);
 }
 
-/* 🔹 Productos */
+/* ============================
+   🔹 PRODUCTOS
+============================ */
 .producto-card {
   background: #111;
   border: none;
@@ -107,9 +171,55 @@ body {
   transform: scale(1.08);
 }
 
-/* 🔹 Footer */
-footer {
-  border-top: 1px solid #333;
+/* ============================
+   🔹 FOOTER
+============================ */
+/* Footer */
+.footer-section {
   background: #000;
-  font-size: 0.9rem;
+  border-top: 1px solid #222;
+  color: #bbb;
+  font-size: 0.95rem;
 }
+
+.footer-section h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ff007f;
+  text-shadow: 0 0 5px rgba(255, 0, 127, 0.6);
+}
+
+.social-icons a {
+  color: #ff007f;
+  font-size: 1.3rem;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00c853;
+}
+
+.btn-rosa {
+  background-color: #ff007f;
+  color: #fff;
+  border: none;
+}
+
+.btn-rosa:hover {
+  background-color: #e60073;
+}
+

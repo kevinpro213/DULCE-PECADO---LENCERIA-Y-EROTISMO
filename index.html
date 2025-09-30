@@ -3,10 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DULCE PECADO || LENCERÍA || ERÓTICA</title>
+  <title>DULCE PECADO || LENCERÍA || ROPA INTERIOR</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Iconos Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
 
   <!-- Estilos propios -->
   <link rel="stylesheet" href="estilos.css">
@@ -25,12 +28,10 @@
         <ul class="navbar-nav ms-auto text-uppercase fw-semibold">
           <li class="nav-item"><a class="nav-link text-rosa" href="#">Tienda</a></li>
           <li class="nav-item"><a class="nav-link text-rosa" href="#">Accesorios</a></li>
-          <li class="nav-item"><a class="nav-link text-rosa" href="#">Babydolls</a></li>
           <li class="nav-item"><a class="nav-link text-rosa" href="#">Brasieres</a></li>
-          <li class="nav-item"><a class="nav-link text-verde" href="#">Bodys</a></li>
+          <li class="nav-item"><a class="nav-link text-rosa" href="#">Bodys</a></li>
           <li class="nav-item"><a class="nav-link text-rosa" href="#">Conjuntos</a></li>
           <li class="nav-item"><a class="nav-link text-rosa" href="#">Panties</a></li>
-          <li class="nav-item"><a class="nav-link text-rosa" href="#">Pijamas</a></li>
           <li class="nav-item"><a class="nav-link text-verde" href="#">Ofertas</a></li>
         </ul>
       </div>
@@ -38,7 +39,7 @@
   </nav>
 
   <!-- 🔹 Hero principal -->
-  <header class="hero d-flex align-items-center">
+  <header class="hero d-flex align-items-center text-center text-md-start">
     <div class="container">
       <div class="row">
         <div class="col-md-6 hero-overlay">
@@ -51,22 +52,42 @@
   </header>
 
   <!-- 🔹 Sección Grupo -->
-  <section class="grupo-section py-5">
-    <div class="container text-center">
+  <section class="grupo-section py-5 text-center">
+    <div class="container">
       <h2 class="mb-4 text-white">Grupo Bésame</h2>
-      <div class="row justify-content-center align-items-center g-4 mb-5">
-        <div class="col-6 col-md-2"><img src="fotos/logo1.png" alt="Lingerie Colombia" class="img-fluid brand-logo"></div>
-        <div class="col-6 col-md-2"><img src="fotos/logo2.png" alt="Lingerie" class="img-fluid brand-logo"></div>
-        <div class="col-6 col-md-2"><img src="fotos/logo3.png" alt="Sueños Íntimos" class="img-fluid brand-logo"></div>
-        <div class="col-6 col-md-2"><img src="fotos/logo4.png" alt="Cupcakes Fashion" class="img-fluid brand-logo"></div>
-        <div class="col-6 col-md-2"><img src="fotos/logo5.png" alt="Bésame" class="img-fluid brand-logo"></div>
+      <div class="row justify-content-center g-4">
+        <div class="col-6 col-md-2"><p class="logo-text">Lingerie Colombia</p></div>
+        <div class="col-6 col-md-2"><p class="logo-text">Lingerie</p></div>
+        <div class="col-6 col-md-2"><p class="logo-text">Sueños Íntimos</p></div>
+        <div class="col-6 col-md-2"><p class="logo-text">Cupcakes Fashion</p></div>
+        <div class="col-6 col-md-2"><p class="logo-text">Bésame</p></div>
       </div>
+    </div>
+  </section>
 
-      <!-- Galería -->
-      <div class="row g-4">
-        <div class="col-md-4"><img src="fotos/modelo1.jpg" alt="Modelo 1" class="img-fluid gallery-img"></div>
-        <div class="col-md-4"><img src="fotos/modelo2.jpg" alt="Modelo 2" class="img-fluid gallery-img"></div>
-        <div class="col-md-4"><img src="fotos/modelo3.jpg" alt="Modelo 3" class="img-fluid gallery-img"></div>
+  <!-- 🔹 Galería -->
+  <section class="container py-5">
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <div class="gallery-item">
+          <img src="https://besame.com/cdn/shop/products/101003BodyRjA_2_10fd89b1-bd6e-4082-91de-d3c33b33d30c.jpg?v=1717471040&width=600" 
+               alt="Modelo 1" class="img-fluid gallery-img">
+          <div class="gallery-text">Bodys</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="gallery-item">
+          <img src="https://besame.com/cdn/shop/files/CFCDF59F-F079-4CD1-8108-4F1E1BDB4662.jpg?v=1749823972&width=600" 
+               alt="Modelo 2" class="img-fluid gallery-img">
+          <div class="gallery-text">Babydolls</div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="gallery-item">
+          <img src="https://besame.com/cdn/shop/files/3618BrasierBlA.jpg?v=1699123711&width=600" 
+               alt="Modelo 3" class="img-fluid gallery-img">
+          <div class="gallery-text">Brasieres</div>
+        </div>
       </div>
     </div>
   </section>
@@ -76,12 +97,10 @@
     <div class="container">
       <h2 class="text-center mb-5 text-white">Novedades</h2>
       <div class="row g-4">
-        <!-- Producto 1 -->
-        <div class="col-sm-6 col-md-4">
+        <!-- Producto -->
+        <div class="col-12 col-sm-6 col-md-4">
           <div class="card producto-card h-100">
-            <div class="producto-img-wrapper">
-              <img src="fotos/prod1.jpg" class="card-img-top producto-img" alt="Producto 1">
-            </div>
+            <img src="fotos/prod1.jpg" class="card-img-top producto-img" alt="Producto 1">
             <div class="card-body text-center">
               <h5 class="card-title text-white">Camiseta Oversize</h5>
               <p class="card-text text-verde">$99.900</p>
@@ -89,12 +108,9 @@
             </div>
           </div>
         </div>
-        <!-- Producto 2 -->
-        <div class="col-sm-6 col-md-4">
+        <div class="col-12 col-sm-6 col-md-4">
           <div class="card producto-card h-100">
-            <div class="producto-img-wrapper">
-              <img src="fotos/prod2.jpg" class="card-img-top producto-img" alt="Producto 2">
-            </div>
+            <img src="fotos/prod2.jpg" class="card-img-top producto-img" alt="Producto 2">
             <div class="card-body text-center">
               <h5 class="card-title text-white">Jean Loose Fit</h5>
               <p class="card-text text-verde">$149.900</p>
@@ -102,12 +118,9 @@
             </div>
           </div>
         </div>
-        <!-- Producto 3 -->
-        <div class="col-sm-6 col-md-4">
+        <div class="col-12 col-sm-6 col-md-4">
           <div class="card producto-card h-100">
-            <div class="producto-img-wrapper">
-              <img src="fotos/prod3.jpg" class="card-img-top producto-img" alt="Producto 3">
-            </div>
+            <img src="fotos/prod3.jpg" class="card-img-top producto-img" alt="Producto 3">
             <div class="card-body text-center">
               <h5 class="card-title text-white">Chaqueta Denim</h5>
               <p class="card-text text-verde">$199.900</p>
@@ -120,8 +133,78 @@
   </section>
 
   <!-- 🔹 Footer -->
-  <footer class="bg-dark text-center text-white py-4">
-    <p class="mb-0">© 2025 Dulce Pecado — Todos los derechos reservados</p>
+  <footer class="footer-section py-5">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        
+        <!-- Contacto -->
+        <div class="col-12 col-md-3 mb-4">
+          <h5 class="text-rosa mb-3">Contacto</h5>
+          <p><i class="bi bi-geo-alt"></i> Tienda Laureles <br> Carrera 76 #33A - 21 <br> Medellín, Colombia</p>
+          <p><i class="bi bi-envelope"></i> contacto@besame.com</p>
+          <p><i class="bi bi-phone"></i> (+57) 317 500 5498</p>
+          <div class="social-icons mt-3">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-pinterest"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+
+        <!-- Categorías -->
+        <div class="col-6 col-md-2 mb-4">
+          <h5 class="text-rosa mb-3">Categorías</h5>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#">Accesorios</a></li>
+            <li><a href="#">Brasieres</a></li>
+            <li><a href="#">Babydolls</a></li>
+            <li><a href="#">Bodys</a></li>
+            <li><a href="#">Conjuntos</a></li>
+            <li><a href="#">Kimonos</a></li>
+            <li><a href="#">Pantis</a></li>
+            <li><a href="#">Pijamas</a></li>
+            <li><a href="#">Novias</a></li>
+            <li><a href="#">Sets de ligueros</a></li>
+          </ul>
+        </div>
+
+        <!-- Enlaces -->
+        <div class="col-6 col-md-3 mb-4">
+          <h5 class="text-rosa mb-3">Enlaces Importantes</h5>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Ventas Mayoristas</a></li>
+            <li><a href="#">Ventas Internacionales</a></li>
+            <li><a href="#">Mi negocio Bésame</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contáctanos</a></li>
+            <li><a href="#">Políticas de Devoluciones</a></li>
+            <li><a href="#">Políticas de Privacidad</a></li>
+            <li><a href="#">Términos y Condiciones</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="col-12 col-md-4 mb-4">
+          <h5 class="text-rosa mb-3">Suscríbete</h5>
+          <p>Suscríbete a nuestra newsletter</p>
+          <form>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Tu email">
+              <button class="btn btn-rosa" type="submit">Suscribirse</button>
+            </div>
+          </form>
+          <!-- Métodos de pago -->
+          <div class="payments mt-3 d-flex flex-wrap align-items-center justify-content-center justify-content-md-start">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa" class="img-fluid me-2 mb-2" style="height: 30px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="Mastercard" class="img-fluid me-2 mb-2" style="height: 30px;">
+            <img src="https://images.seeklogo.com/logo-png/40/1/nequi-logo-png_seeklogo-404357.png" alt="Nequi" class="img-fluid me-2 mb-2" style="height: 30px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Logo_PSE.png" alt="PSE" class="img-fluid me-2 mb-2" style="height: 30px;">
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <!-- Bootstrap JS -->
